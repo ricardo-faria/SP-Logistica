@@ -1,0 +1,106 @@
+/* variables */
+:root {
+    --green: #45ae16;
+    --blue: #0e1b7d;
+    --white: #fff;
+    --background: #eff0f1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding-top: 40px; /* Altura do menu */
+}
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+/* header */
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.menu {
+    background-color: var(--blue);
+    text-align: center;
+}
+.menu ul{
+    text-align:  right;
+    margin-right: 30px;
+}
+.menu ul li {
+    display: inline-block;
+    font-size: large;
+}
+.menu ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 30px 30px;
+}
+.logo{
+    float: left;
+    padding: 20px 30px;
+    margin-left: 20px;
+}
+
+
+/* content */
+.content-main {
+    background-image: url(./images/hr.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    padding: 30px;
+}
+
+.main {
+    padding: 50px 0;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color: var(--background);
+}
+
+.services {
+    display: inline-block;
+}
+
+.services-image{
+    width: 50%;
+    float: left;
+}
+
+.services ul {
+    list-style-type: none;
+}
+.services li:before {
+    content :'\2714'; margin-left: -20px; margin-right: 10px; 
+}
+.galery {
+    display: inline-block;
+}
+.galery img {
+    width: 30%;
+    margin: 15px;
+}
+
+/* footer */
+.footer {
+    background-color: var(--background);
+    text-align: center;
+    padding: 50px 0;
+}
