@@ -29,10 +29,10 @@ $(document).on('click', function(event){
     }
 ); 
 
-
+//schedule a shake on whatsapp icon for 1 second each 4 seconds
 $(document).ready(function() {
     setInterval(function() {
       $(".whatsapp").toggleClass("shk");
       setTimeout('$(".whatsapp").toggleClass("shk");', 1000);
-    }, 5000);
+    }, 4000);
   });
