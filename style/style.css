@@ -6,6 +6,7 @@
     --background: #eff0f1;
     --green-whatsapp: #25d366;
     --shadow: #999;
+    --background-footer: rgb(65, 62, 62);
 }
 
 /* menu */
@@ -16,7 +17,7 @@
 
 /* content */
 .content-main {
-    background-image: url("../images/hr.jpg");
+    background-image: url("../images/hr.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -42,30 +43,22 @@
     padding: 50px 0;
 }
 
-#contact-title {
-    margin-left: 700px;
-}
-.contact-item {
-    margin-left: 710px;
-    display: block;
-}
-
-.contact-item * {
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 20px;
-    margin-left: 20px;
-}
 
 
+@media screen and  (max-width: 800px){
+    .itens-contact{
+        margin-top: 40px;
+    }
+}
 
 
 /* footer */
 .footer {
-    background-color: var(--background);
+    background-color: var(--background-footer);
     text-align: center;
     padding: 50px 0;
 }
+
 
 /* whatsapp icon */
 .whatsapp{
