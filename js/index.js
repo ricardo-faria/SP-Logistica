@@ -36,3 +36,8 @@ $(document).ready(function() {
       setTimeout('$(".whatsapp").toggleClass("shk");', 1000);
     }, 4000);
   });
+
+
+$(document).ready(function() {
+  AOS.init();
+});
