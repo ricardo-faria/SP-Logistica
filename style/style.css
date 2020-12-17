@@ -6,12 +6,23 @@
     --background: #eff0f1;
     --green-whatsapp: #25d366;
     --shadow: #999;
-    --background-footer: rgb(65, 62, 62);
+    --background-footer: rgb(62, 63, 65);
+    --backgound-color:  rgb(241, 241, 241);
 }
 
-
+body {
+    background-color: var(--backgound-color)!important;
+}
 .itens-contact{
     margin-top: 40px;
+}
+
+#section-contact-home {
+    background-image: url("../images/fiorino.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
 }
 
 /* content */
@@ -96,8 +107,10 @@
     display: inline;
 }
 
+#services-section {
+    overflow-x: hidden;
 
-
+}
 /* contact */
 #contact-section {
     background-color: var(--background);
@@ -106,7 +119,9 @@
 }
 
 
-
+.image-services-item {
+    max-width: 20%;
+} 
 
 
 
