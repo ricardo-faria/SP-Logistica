@@ -1,7 +1,7 @@
 /* variables */
 :root {
     --green: #45ae16;
-    --blue_header: #0e1b7d;
+    --blue_header: #003b81;
     --white: #fff;
     --background: #eff0f1;
     --green-whatsapp: #25d366;
@@ -9,8 +9,10 @@
     --background-footer: rgb(62, 63, 65);
     --backgound-color:  rgb(241, 241, 241);
     --orange : darkorange;
-    --backgound-contact-home : #284954;
+    --backgound-contact-home: #d6d4d4;
+    --backgoud-contact-gradient: rgb(156, 151, 151);
     --background-vehicle: gray;
+    --background-contact: #ccc;
 }
 
 body {
@@ -21,28 +23,34 @@ body {
 }
 
 #section-contact-home {
-    background-color: var(--backgound-contact-home );
+    background-image:  linear-gradient(var(--backgoud-contact-gradient),var(--backgound-contact-home));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
 }
 
+.contact-home {
+    text-align: center;
+}
+.phone {
+    margin-top: 20px;
+}
 
 
 /* content */
 .content-main {
     background-image: url("../images/hr_mobile.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
     width: 100%;
+    height: 100%;
     margin: auto;
     margin-top: 50px;
     height: 600px;
     padding: 30px;
-    background-position: left bottom;
-    background-attachment: fixed;
     z-index: 0;
     display: -webkit-box;
     display: -webkit-flex;
@@ -109,8 +117,10 @@ body {
         height: 250px;
     }
 
-    
-
+    .phone {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
 
     .list-services{
         margin-left: 100px;
@@ -149,11 +159,10 @@ body {
 
 /* contact */
 #contact-section {
-    background-color: var(--background);
     margin-top: 30px;
-    padding: 50px 0;
+    padding: 40px 0;
+    background-color: var(--background-contact);
 }
-
 
 .image-services-item {
     max-width: 20%;
@@ -165,7 +174,7 @@ body {
 .footer {
     background-color: var(--background-footer);
     text-align: center;
-    padding: 50px 0;
+    /* padding: 50px 0; */
 }
 
 
