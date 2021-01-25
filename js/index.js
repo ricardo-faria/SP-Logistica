@@ -37,7 +37,7 @@ $(document).ready(function() {
     }, 4000);
   });
 
-
+//init the AOS animation
 $(document).ready(function() {
   AOS.init();
 });

@@ -3,29 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="Ricardo Jonas Faria">
+        <meta name="keywords" content="logistica, transporte, frete, pouso alegre" />
+        <meta name="description" content="Site institucional da empresa SP Logistica" />
+
         <title>SP Logistica</title>
         <link href="./images/favicon.ico" rel="icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
+        <link rel="stylesheet" href="./style/bootstrap-purify.css">
         <link rel="stylesheet" href="./style/style.css">
-        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-reboot.min.css">
         <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap" rel="dns-prefetch">
+        
+        <link rel="preload" href="./node_modules/aos/dist/aos.css" as="style" onload="this.rel='stylesheet'">
     </head>
-
-    <body>
     
+    <body>
+        
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
             <div class="d-flex flex-grow-1">
                 <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
                 <a class="navbar-brand d-none d-lg-inline-block" href="#main-section">
-                    <img src="./images/sp logistica2.png" alt="logo sp logistica" class="logo ">
+                    <img src="./images/sp logistica.png" alt="logo sp logistica" class="logo ">
                 </a>
                 <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#main-section">
-                    <img src="./images/sp logistica2.png" alt="logo sp logistica" class="logo">
+                    <img src="./images/sp logistica.png" alt="logo sp logistica" class="logo">
                 </a>
                 <div class="w-100 text-right">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
@@ -50,7 +54,7 @@
                 </ul>
             </div>
         </nav>
-
+        
 
         <main id="main-section" class="">
             <section class="content-main ">
@@ -60,7 +64,7 @@
                             <p>Entregas rápidas com qualidade e segurança</p>
                         </div>
                         <div class="carousel-item">
-                            <p>Realizamos entregas para todo território nacional</p> 
+                            <p>Fazemos entregas para todo território nacional</p> 
                         </div>
                         <div class="carousel-item">
                             <p>Veículos novos e motoristas especializados</p>
@@ -68,7 +72,7 @@
                     </div>
                 </div>
             </section>
-
+            
             <section id="section-contact-home" class="p-4 p-lg-5 w-100 ">
                 <div class="contact-home">
                     <h3 class="d-lg-inline d-sm-block ">Entre em contato e faça seu orçamento</h3>
@@ -79,10 +83,10 @@
                     </h3>
                 </div>
             </section> 
-
+            
             
             <div class="container">
-               
+                
                 <section id="company-section" class="section-company content ">
                     <h2>A empresa</h2>
                     
@@ -101,30 +105,30 @@
                 
                 <section id="services-section" class="content">
                     <h2>Nossos Serviços</h2>
-                
+                    
                     <p class="services-description">Há <span id="age"></span> anos trabalhamos com muita responsabilidade e segurança 
                         com serviços express de entrega, tais como: </p>
 
-                    <ul class="list-unstyled list-services">
+                        <ul class="list-unstyled list-services">
                         <li class="media text-left d-flex align-items-center mx-xl-5 mx-sl-0" data-aos="fade-right" data-aos-offset="100"
                         data-aos-easing="ease-in-sine">
-                            <img src="./images/fast-delivery.png" alt="Entrega rápida" class="image-services-item"> 
-                            <div class="media-body">
-                                <p class="description-services-item mx-4">Entregas rápidas de cargas e documentos transportadas com Fiorinos e HR's</p>
-                            </div>
-                        </li>
-
-                        <li class="media my-4 text-right d-flex align-items-center mx-xl-5 mx-sl-0" data-aos="fade-left" data-aos-offset="100"
-                        data-aos-easing="ease-in-sine">
+                        <img src="./images/fast-delivery.png" alt="Entrega rápida" class="image-services-item"> 
                         <div class="media-body">
+                            <p class="description-services-item mx-4">Entregas rápidas de cargas e documentos transportadas com Fiorinos e HR's</p>
+                        </div>
+                    </li>
+
+                    <li class="media my-4 text-right d-flex align-items-center mx-xl-5 mx-sl-0" data-aos="fade-left" data-aos-offset="100"
+                    data-aos-easing="ease-in-sine">
+                    <div class="media-body">
                             <p class="description-services-item  mx-4 ">Ofereçemos serviços de motorista particular</p>
-                            </div>
-                            <img src="./images/particular-driver.png" alt="" class="image-services-item">
+                        </div>
+                        <img src="./images/particular-driver.png" alt="Motorista particular" class="image-services-item">
                         </li>
 
                         <li class="media text-left d-flex align-items-center mx-xl-5 mx-sl-0" data-aos="fade-right" data-aos-offset="100"
                         data-aos-easing="ease-in-sine">
-                            <img src="./images/airport.png" alt="" class="image-services-item">
+                            <img src="./images/airport.png" alt="Despacho em aeroportos" class="image-services-item">
                             <div class="media-body">
                                 <p class="description-services-item mx-4"> Despacho de encomendas em aeroportos</p>
                             </div>
@@ -135,29 +139,29 @@
                             <div class="media-body">
                                 <p class="description-services-item mx-4">Mudanças residenciais e comerciais</p>
                             </div>
-                            <img src="./images/moving-home.png" alt="" class="image-services-item">
+                            <img src="./images/moving-home.png" alt="trasporte de mudanças" class="image-services-item">
                         </li>
                         
                         <li class="media text-left d-flex align-items-center mx-xl-5 mx-sl-0" data-aos="fade-right" data-aos-offset="100"
                         data-aos-easing="ease-in-sine">
-                            <img src="./images/document.png" alt="" class="image-services-item">
+                            <img src="./images/document.png" alt="transporte de documentos" class="image-services-item">
                             <div class="media-body">
                                 <p class="description-services-item mx-4">Transporte de documentos à cartórios, serviços bancários e repartições públicas</p>
                             </div>
                         </li>
-
+                        
                         <li class="media my-4 text-right d-flex align-items-center mx-xl-5 mx-sl-0" data-aos="fade-left" data-aos-offset="100"
                         data-aos-easing="ease-in-sine">
-                            <div class="media-body">
+                        <div class="media-body">
                                 <p class="description-services-item mx-4">Fazemos parcerias e convênios com empresas</p>
                             </div>
-                            <img src="./images/contract.png" alt="" class="image-services-item">
+                            <img src="./images/contract.png" alt="Parcerias com empresas" class="image-services-item">
                         </li>
                     </ul>
-
+                    
                 </section>
                 
-
+                
             </div>
             <section id="contact-section">
                 <h3 class="text-center">Entre em contato e faça seu orçamento, ficaremos satisfeitos em atendê-lo</h3>
@@ -166,33 +170,33 @@
                     <div class="d-lg-inline-block text-center itens-contact">
                         <i class="fas fa-phone-alt  fa-3x"></i>
                         <h5>Nos ligue</h5>
-                        <p><a href="tel:+5535991029492"> (35) 9 9102-9492</a></p>
+                        <p><a href="tel:+5535991029492" rel="nofollow"> (35) 9 9102-9492</a></p>
                     </div>
-
+                    
                     <div  class="d-lg-inline-block text-center itens-contact">
                         <i class="fas fa-envelope fa-3x"></i>
                         <h5>Nos envie um email</h5>
-                        <p><a href="mailto:splogisticaexpresspa@gmail.com">splogisticaexpresspa@gmail.com</a></p>
+                        <p><a href="mailto:splogisticaexpresspa@gmail.com" rel="nofollow">splogisticaexpresspa@gmail.com</a></p>
                     </div>
-
+                    
                 </div>
-            
-
-                <a href="https://wa.me/5535991029492?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." class="whatsapp" target="_blank">
+                
+                
+                <a href="https://wa.me/5535991029492?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." rel="nofollow" class="whatsapp" target="_blank">
                     <i class="fab fa-whatsapp whatsapp-icon" ></i>
                 </a>
-
+                
             </section>
         </main>
 
         <footer class="footer footer-copyright py-1 text-light"> 
             <p>SP Logistica Express | © 2021 Todos os direitos reservados </p>
-            <p>Desenvolvido por Ricardo Faria</p>
         </footer>
     </body>
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="./js/index.js"></script>
     <script src="./node_modules/aos/dist/aos.js"></script>
+    
 
 </html>
